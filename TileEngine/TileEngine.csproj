@@ -104,15 +104,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="opf.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="opf_native_win_failsafe.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="opf_native_win_wrapper.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="opf.dll" />
+    <Content Include="opf_native_win_failsafe.dll" />
+    <Content Include="opf_native_win_wrapper.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
