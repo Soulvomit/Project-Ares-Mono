@@ -1,5 +1,5 @@
 # Project-Ares-Mono
-Monogame port of the 2D game engine.
+Project Ares 2D Game Engine ported to Monogame
 
 Not documented yet.
 
